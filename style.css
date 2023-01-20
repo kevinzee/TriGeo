@@ -1,0 +1,38 @@
+.section {
+  padding: 1rem;
+}
+
+div {
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+
+
+.input-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 4fr;
+  gap: 10px;
+}
+
+.label {
+  line-height: 40px;
+  text-align: center;
+}
+
+#clear {
+  width: 100px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.hidden {
+  display: none;
+}
